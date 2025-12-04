@@ -1,54 +1,165 @@
-# React Projects Collection
+# 🌍 Currency Converter Pro
 
-A collection of React projects built while learning React.js, showcasing various concepts and integrations.
+🔗 **Live Demo:** https://currency-converter-dheerajbaheti-projects.vercel.app/
 
-## Projects
-
-### 1. Currency Converter
-
-- **Tech Stack**: React, Vite, Tailwind CSS
-- **Features**: Real-time currency conversion with API integration
-- **Description**: A responsive currency converter that fetches live exchange rates and allows users to convert between different currencies with swap functionality.
-
-### 2. Password Generator
-
-- **Tech Stack**: React, Vite, Tailwind CSS
-- **Features**: Customizable password generation with copy functionality
-- **Description**: A secure password generator with options to include numbers, special characters, and adjustable length (6-100 characters).
-
-### 3. Mega Project (Blog App)
-
-- **Tech Stack**: React, Redux Toolkit, Appwrite, TinyMCE, React Router
-- **Features**: Full-stack blog application with authentication
-- **Description**: A comprehensive blog application with user authentication, rich text editor, post management, and cloud storage integration.
-
-### 4. Super Table
-
-- **Tech Stack**: React, Vite, Tailwind CSS, Shadcn/ui, Radix UI
-- **Features**: Advanced table component with modern UI
-- **Description**: A table application built with modern UI components and styling libraries.
-
-## Common Setup
-
-All projects use:
-
-- **React 18.2.0**
-- **Vite** for fast development and building
-- **Tailwind CSS** for styling
-- **ESLint** for code linting
-
-## Getting Started
-
-1. Clone the repository
-2. Navigate to any project directory
-3. Install dependencies: `npm install`
-4. Start development server: `npm run dev`
-
-
-## Author
-
-Dheeraj
+A React-based currency converter with **real-time exchange rates, historical charts, and AI-generated travel insights**.
 
 ---
 
-_This collection represents my learning journey with React and modern web development technologies._
+## ✨ Features
+
+### 💱 Currency Conversion
+- 🔄 Real-time exchange rates from Frankfurter API  
+- 💱 One-click currency swap  
+- 🌐 Country flag display  
+- 📊 7 / 30 / 90-day historical rate charts  
+
+### 🤖 AI Travel Insights (Google Gemini)
+- 🛡️ Safety information  
+- 🍽️ Must-eat foods  
+- ☁️ Weather details  
+- 💰 Local buying power  
+
+### 🎨 UI & Experience
+- 📱 Fully responsive design  
+- 🎯 Floating AI panel  
+- ⚡ Fast performance using Vite  
+- 🎨 Styled with Tailwind CSS  
+
+---
+
+## 🚀 Setup Instructions
+
+### Requirements
+- Node.js 20.19+ or 22.12+
+- NPM or Yarn
+
+---
+
+### Installation
+
+```bash
+git clone <repository-url>
+cd currency-converter
+npm install
+```
+
+---
+
+### Environment Variable (Optional)
+
+Create a `.env` file:
+
+```env
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+Get your API key from Google AI Studio.
+
+---
+
+### Run Project
+
+```bash
+npm run dev
+```
+
+Open in browser: http://localhost:5173
+
+---
+
+## 🛠️ Technologies Used
+
+- React 18  
+- Vite.js 7  
+- Tailwind CSS 3  
+- Chart.js 4  
+- Frankfurter API  
+- Google Gemini API  
+- Flag CDN  
+- Lucide React  
+
+---
+
+## 📂 Project Structure
+
+```
+currency-converter/
+├── public/
+│   └── vite.svg               # Vite favicon
+├── src/
+│   ├── components/
+│   │   ├── CurrencyChart.jsx  # Historical rate charts
+│   │   ├── DeveloperInfo.jsx  # Developer info bar
+│   │   ├── GeminiInsights.jsx # AI travel insights
+│   │   ├── InputBox.jsx       # Currency dropdown input
+│   │   └── index.js           # Component exports
+│   ├── hooks/
+│   │   ├── getCurrencies.js       # Currency list
+│   │   ├── useConvertCurrency.js  # Exact currency fetch & Conversion logic
+│   │   └── useCurrencyInfo.js     # Fetch currency info
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── .env.example
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 📌 Using the Floating AI Panel
+
+Click the 🤖 button to view:
+- Safety info  
+- Food suggestions  
+- Weather details  
+- Buying power  
+
+Close using outside click, × button, or toggle.
+
+---
+
+## 🔧 Scripts
+
+```bash
+npm run dev
+npm run build
+npm run preview
+npm run lint
+```
+
+---
+
+## 🌐 APIs Used
+
+- Frankfurter API  
+- Google Gemini API  
+- Flag CDN  
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 👨‍💻 Developer
+
+**Dheeraj Baheti**
+
+- GitHub: https://github.com/DheerajBaheti06  
+- LinkedIn: https://linkedin.com/in/dheeraj-baheti1  
+
+---
+
+Built with React, Tailwind CSS, Chart.js & Google Gemini API.
