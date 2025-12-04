@@ -1,32 +1,40 @@
-## 🔗 Live Demo (https://react-projects-dheerajbaheti-projects.vercel.app/)
-
-
 # 🌍 Currency Converter Pro
 
+🔗 **Live Demo:** https://currency-converter-dheerajbaheti-projects.vercel.app/
 
-
-A professional React-based currency converter with **real-time exchange rates**, **interactive charts**, and **AI-powered travel insights**.
-
----
-
-## ✨ Key Features
-
-* **🔄 Real-time Exchange Rates** – Live currency data via Frankfurter API (35+ currencies)
-* **🤖 AI Travel Insights** – Local buying power, safety, and tips powered by Google Gemini 2.5 Flash
-* **📊 Historical Charts** – 7/30/90-day exchange rate visualization
-* **📱 Mobile-First UI** – Tailwind CSS, fully responsive
-* **💱 Quick Currency Swap** – One-click currency pair swap
-* **🌐 Flag Integration** – Visual country flags for clarity
-* **🎯 Clean Design** – Floating AI panel for minimal UI clutter
+A React-based currency converter with **real-time exchange rates, historical charts, and AI-generated travel insights**.
 
 ---
 
-## 🚀 Quick Start
+## ✨ Features
 
-### Prerequisites
+### 💱 Currency Conversion
+- 🔄 Real-time exchange rates from Frankfurter API  
+- 💱 One-click currency swap  
+- 🌐 Country flag display  
+- 📊 7 / 30 / 90-day historical rate charts  
 
-* Node.js 20.19+ or 22.12+
-* NPM or Yarn
+### 🤖 AI Travel Insights (Google Gemini)
+- 🛡️ Safety information  
+- 🍽️ Must-eat foods  
+- ☁️ Weather details  
+- 💰 Local buying power  
+
+### 🎨 UI & Experience
+- 📱 Fully responsive design  
+- 🎯 Floating AI panel  
+- ⚡ Fast performance using Vite  
+- 🎨 Styled with Tailwind CSS  
+
+---
+
+## 🚀 Setup Instructions
+
+### Requirements
+- Node.js 20.19+ or 22.12+
+- NPM or Yarn
+
+---
 
 ### Installation
 
@@ -36,7 +44,9 @@ cd currency-converter
 npm install
 ```
 
-### Environment Variables (Optional)
+---
+
+### Environment Variable (Optional)
 
 Create a `.env` file:
 
@@ -44,7 +54,9 @@ Create a `.env` file:
 VITE_GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-> Get your Gemini API key from [Google AI Studio](https://ai.google.com/studio)
+Get your API key from Google AI Studio.
+
+---
 
 ### Run Project
 
@@ -52,18 +64,20 @@ VITE_GEMINI_API_KEY=your_gemini_api_key_here
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173)
+Open in browser: http://localhost:5173
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-* **React 18**
-* **Vite.js 7**
-* **Tailwind CSS 3**
-* **Chart.js 4**
-* **Lucide React**
-* **Google Gemini API**
+- React 18  
+- Vite.js 7  
+- Tailwind CSS 3  
+- Chart.js 4  
+- Frankfurter API  
+- Google Gemini API  
+- Flag CDN  
+- Lucide React  
 
 ---
 
@@ -76,13 +90,13 @@ currency-converter/
 ├── src/
 │   ├── components/
 │   │   ├── CurrencyChart.jsx  # Historical rate charts
-│   │   ├── DeveloperInfo.jsx  # Developer information bar
-│   │   ├── GeminiInsights.jsx # AI-powered travel insights
-│   │   ├── InputBox.jsx       # Currency input with dropdown
+│   │   ├── DeveloperInfo.jsx  # Developer info bar
+│   │   ├── GeminiInsights.jsx # AI travel insights
+│   │   ├── InputBox.jsx       # Currency dropdown input
 │   │   └── index.js           # Component exports
 │   ├── hooks/
 │   │   ├── getCurrencies.js       # Currency list
-│   │   ├── useConvertCurrency.js  # Conversion logic
+│   │   ├── useConvertCurrency.js  # Exact currency fetch & Conversion logic
 │   │   └── useCurrencyInfo.js     # Fetch currency info
 │   ├── App.css
 │   ├── App.jsx
@@ -104,38 +118,32 @@ currency-converter/
 
 ## 📌 Using the Floating AI Panel
 
-* Click the **🤖 button** (bottom-right)
-* Access **local buying power**, **safety**, **food**, and travel **tips**
-* Close via **× button**, outside click, or toggle button
+Click the 🤖 button to view:
+- Safety info  
+- Food suggestions  
+- Weather details  
+- Buying power  
+
+Close using outside click, × button, or toggle.
 
 ---
 
 ## 🔧 Scripts
 
 ```bash
-npm run dev      # Development server
-npm run build    # Production build
-npm run preview  # Preview build
-npm run lint     # ESLint check
+npm run dev
+npm run build
+npm run preview
+npm run lint
 ```
 
 ---
 
 ## 🌐 APIs Used
 
-* **Frankfurter API** – Real-time currency rates
-* **Flag CDN** – Country flags
-* **Google Gemini AI** – Travel insights
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m "Add feature"`
-4. Push: `git push origin feature-name`
-5. Open a Pull Request
+- Frankfurter API  
+- Google Gemini API  
+- Flag CDN  
 
 ---
 
@@ -149,11 +157,9 @@ MIT License
 
 **Dheeraj Baheti**
 
-* GitHub: [@DheerajBaheti06](https://github.com/DheerajBaheti06)
-* LinkedIn: [Dheeraj Baheti](https://linkedin.com/in/dheeraj-baheti1)
+- GitHub: https://github.com/DheerajBaheti06  
+- LinkedIn: https://linkedin.com/in/dheeraj-baheti1  
 
 ---
 
-Built with **React**, **Tailwind CSS**, **Chart.js**, and **Google Gemini API**.
-
----
+Built with React, Tailwind CSS, Chart.js & Google Gemini API.
