@@ -1,6 +1,6 @@
 # 🌍 Currency Converter Pro
 
-🔗 **Live Demo:** https://currency-converter-dheerajbaheti-projects.vercel.app/
+🔗 **Live Demo:** https://currency-converter-beta-flax.vercel.app/
 
 A React-based currency converter with **real-time exchange rates, historical charts, and AI-generated travel insights**.
 
