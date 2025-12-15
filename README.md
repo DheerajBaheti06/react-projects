@@ -8,7 +8,7 @@ A collection of React projects built while learning React.js, showcasing various
 
 - **Features**: Real-time currency conversion with AI-powered travel insights, historical charts, and smart caching.
 - **Description**: A professional currency converter that combines real-time financial data with Generative AI to provide context-aware insights about purchasing power and destination safety.
-- **Live Link**: [Currency IQ - Live Demo](https://currency-converter-dheerajbaheti-projects.vercel.app/)
+- **Live Link**: [Currency IQ - Live Demo](https://dheerajbaheti-projects-currencyiq.vercel.app/)
 
 ### 2. Mega Project (Blog App)
 
