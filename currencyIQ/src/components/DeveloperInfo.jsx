@@ -10,7 +10,7 @@ const DeveloperInfo = () => {
     resume:
       "https://drive.google.com/file/d/1LGdqrdugh_ZtLSGsWLY9UugJcbT35LbO/view?usp=drive_link",
     sourceCode:
-      "https://github.com/DheerajBaheti06/react-projects/tree/main/currency-converter",
+      "https://github.com/DheerajBaheti06/react-ai-projects/tree/main/currencyIQ",
   });
 
   useEffect(() => {
